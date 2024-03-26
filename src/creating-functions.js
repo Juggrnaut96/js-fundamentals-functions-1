@@ -57,7 +57,12 @@ console.log(nameWithSmile)
 // [1, 'edward']        | 1
 //
 // TODO: write code below
-
+function countMakes(arr) {
+  const count = arr.length
+  return count
+}
+const carMakes = ['Toyota', 'Nissan', 'Lamborghini', 'Ferrari', 'Peugeot']
+console.log(countMakes(carMakes))
 // 5. Define a function that takes an object and adds a property 'edward' to the object if it doesn't yet exist with a default value of 'amazing'
 //
 // Example Input and Output:
