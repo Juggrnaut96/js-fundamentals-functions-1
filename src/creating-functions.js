@@ -36,7 +36,16 @@ console.log(capitalString('hello'))
 // Aiyana | Hi, Aiyana :)
 //
 // TODO: write code below
+function withSmile(sml) {
+  const capital = sml.charAt(0).toUpperCase() + sml.slice(1)
 
+  const withSmile = capital + ' :)'
+
+  return withSmile
+}
+
+const nameWithSmile = withSmile('Aiyana')
+console.log(nameWithSmile)
 // 4. Define a function that takes an array of data and returns how many strings are in the array.
 //
 // Example Input and Output:
